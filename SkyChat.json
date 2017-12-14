@@ -1,0 +1,2681 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "SkyChat",
+  "desc": "Application example for SkyApp Chatbot Engine",
+  "culture": "zh-cn",
+  "intents": [
+    {
+      "name": "asking"
+    },
+    {
+      "name": "Confuse"
+    },
+    {
+      "name": "greeting"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Question"
+    },
+    {
+      "name": "Recommendation"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Search"
+    },
+    {
+      "name": "Worksheet"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "number"
+  ],
+  "model_features": [
+    {
+      "name": "Student",
+      "mode": true,
+      "words": "204A,205A,207B,103A,23B,29C,205b,206a,102a,207a,202,22b,25b,109c,103b,23a,20b,22a,5B,2008B,10C,10b,16b,12b,18b,15b,14b,13b,14a,16a,11b",
+      "activated": true
+    },
+    {
+      "name": "WORKSHEET",
+      "mode": true,
+      "words": "A5,A6,A7,B105,B203,b103,b106,b104,b102,b107,b101,b202,b204,b201,b205,A12",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "你好",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "哈哈哈哈",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你是谁",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我想出去玩",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "嗨",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "晚上好",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "早上好",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "我讨厌你",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "Hello",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "我喜欢你",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我恨你",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你好！",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "午安",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "晚安",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "很高兴认识你",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "你能干啥？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "在吗",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "哟",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "我爱你",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你是机器人吗",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你是真人吗",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我想知道",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "早安~",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "嗨！",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "你会说话吗",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你好~",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "我想",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你有什么用",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "hi~",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "呵呵呵呵",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你还好吗？",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "啦啦啦啦",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你能做什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你会做什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "嘿，你好",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "怎么了？",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "下午好！",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "中午好！",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "这什么鬼",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你谁",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我想问",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我弄不懂这道题",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "我想问问题",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "你能告诉我这题答案吗？",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "这个问题怎么解？",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "我想知道这个问题的答案",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "很好你很棒",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你这个大白痴",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "嘿，你知道这道题2.2的答案吗",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "我想知道问题3的答案",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "正弦定理是啥？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "正弦定理有什么用？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "我弄不懂嘿嘿的定义",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "这道题1得问问机器人",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "哈哈，求问3点解",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "我也不太懂3，要不问问机器人",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "你怎么用啊",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "乘法交换律是啥",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "被除数和商怎么分？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "我不懂什么是乘法结合律",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "有限小数是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "我讨厌这份试卷",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "该死的这个程序真烦",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "有限小数怎么搞",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "忙吗",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "你是白痴",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "小数运算真难啊",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "求推荐练习题",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "你是小狗",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你真烦",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "这老师真烦",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我想去吃点好吃的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我要吃的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "给我一块曲奇",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "王者荣耀真好玩",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "有什么游戏推荐吗",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我要玩手机！",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你们的分数设置有毛病啊",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "和哈后回去",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你是谁制造的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "飞机会飞吗",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "飞机回飞吗",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "老师逼我的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我要找老师！",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我不需要你",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你太烦人了",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你真的是机器人吗",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我不知道十进制加减法",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "我不知道乘除法",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "整数和分数有什么区别？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "三角形和三角体有什么区别？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "我想知道乘法和除法的区别",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 5
+        },
+        {
+          "entity": "Search",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "我想知道正弦定理",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "我想知道十进制运算",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "哎呀，我发现无限小数真的挺难得",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "好烦啊，我就是做不好加减法相关的题",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "我再也不想做分数加减法了！",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "乘法交换律好恶心啊",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "哈哈哈，最小公倍数的计算好简单啊！",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "我在分解质因数上最近进步飞快呢！",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 2,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "我最近在学素数。我发现它真的好难啊",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "我觉得我不需要再做什么有余数除法之类的练习了！",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 11,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "哎，不想再碰什么证明题了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我最近，都不知道四则运算怎么提升呢",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "极限怎么求",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "怎样做加法",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "怎样做减数",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "怎样做减法",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "怎样做加数",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "怎么问你",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "怎么问",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "机器人好",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "数学很难",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我不想学数学了，，太麻烦了",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "哎，，感觉这些东西都好难啊",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "数学太难了",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "好累，不想学数学了",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "不想做练习了。。真累啊",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我不想学习了！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "这些东西我都听不懂！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "最近如何？",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "欢迎！",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "你好，机器人",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "今天天气真不错！你好吗？",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "早上好，你好吗啊？",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "您能回答什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我想知道怎么用你",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你可以做什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我要问你什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "给我个指导呗",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "这怎么用啊",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "怎么问你才行？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "怎样才能提高我在锐角上的水平？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "在直角上我应该做什么提高一下？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "接下来我应该练习什么？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "有什么钝角方面的练习题适合我？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "有什么题是适合我的？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "针对两点间距离，我做些什么样的题比较适合？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 2,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "通过做什么样的练习我才能有所进步？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我很想巩固下我的射线，给我推荐点题目呗",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "我在练习倒数，给我个练习清单吧",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "我想提高我的通分，我该做什么？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "我接下来要做什么？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我正在学习倒数，希望你能给我点指导呢",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "你觉得我要做完什么题目才能学好比值？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "你觉得我该完成哪些题目？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "希望你能给我一些建议。",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "给我个练习题",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "现阶段我做什么样的练习题可以迅速提高？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "你给我推送一些题目吧？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "除却老师给的作业，我还需要做点什么吗？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "你会些什么呀？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你能教我什么啊？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你给我个菜单吧",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你有没有关键字回复的功能？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你能回答什么问题？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我该问你什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "怎样才有回答",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你具体是做什么的？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "给我个列表",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我要怎么自己提升分解质因数？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "告诉我你能做什么",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我要知道",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "那直角呢？有直角相关的练习吗？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "哎，我发现其实锐角还蛮有趣的哎",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "学钝角好麻烦啊，我觉得做这个太恶心了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 1,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "射线这个东西，学起来还挺容易的",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "一点都不想学两点间距离，我能不能不学啊",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "哎嘿，做了个比值的练习，直接就拿了个高分了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "哇，我这次考试拿了满分哦，厉害吧！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "最简分数有什么难的？随便就过了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "学东西太累了，我希望我可以不学",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我爱数学，数学使我预约",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "学数学其实很有趣啊！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我一点都不想做那个证明题！特别是小数比化简相关的！好烦啊！不会！",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "真分数这种东西，学了能有啥用，不如不学",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "我讨厌做练习",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我不喜欢做题",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我不喜欢数学题",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我很讨厌学数学",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我喜欢做关于除数和被除数的练习题",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "Search",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "我喜欢做各种练习来提升自己",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我喜欢做证明题",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "如果可以完全不接触三角形的题目就好了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "我最讨厌那种考我的十进制运算的题目了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 9,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "啊，不要再让我碰到圆柱啦，我一点都不喜欢他",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我好希望我瞬间就能学会有限小数类型的题目啊",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 11,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "混合运算那种东西能不碰就不要碰",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "数位这种东西，最讨厌啦",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "如果我不用学自然数就好了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "奇数和偶数真让人厌恶",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "我完全学不进去倍数和偶数啊，我讨厌这些东西",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 7,
+          "endPos": 8
+        },
+        {
+          "entity": "Search",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "哈哈，我发现。其实约数还蛮简单的，我看了看书就搞懂了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我想知道什么是商？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 7,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "什么是商？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "求帮查下加法结合律的含义",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "我考考你，你知道互质是什么吗？",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "你倒是说句话啊",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你到底是不是机器人啊",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "快走",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你走",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你滚开",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我要玩电脑",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你来给我打工吧！",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "看电影去~",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我想打游戏",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我要玩足球了",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你能说话吗啊",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你会聊天吗？",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你是老师的帮手吗？",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你什么时候能长大啊",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我呸！",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "帮我查个东西",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我疯疯癫癫走过红尘呵呵呵呵",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我可以把你当树洞吗？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我可以跟你聊天吗？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你可以帮我查点东西吗？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "给我个用你的菜单呗",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你会帮我做题吗？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你会算数吗？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你能给我做点什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "如果我想问你问题，应该怎么做？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "如果我想你给我点推荐的练习，我该怎么问你？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "最简分数我不太懂，它是干嘛的？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "分解质因数是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "直角是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "通分我也不太搞得懂，它是做什么的？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "给我推荐点针对分解质因数的练习吧",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 7,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "我想练下分解质因数，给我个推荐?",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "我不太弄得清楚分解质因数，给我推荐个练习吧",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 7,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "我想弄懂加减法，能给我点推荐吗？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "直角好难啊，有没有什么推荐的？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "我学不动了！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "哎学数学太难了，整天都得做练习",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "直角和锐角难道有不同吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "我搞不太清楚被除数和除数之间的不同哎",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 8
+        },
+        {
+          "entity": "Search",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "刚做了下练习，发现我还是弄不懂射线的定义",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 15,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "真分数和假分数有区别吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "循环小数的定义是怎样的？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "下午好呢",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "哈哈哈早上好呢",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "你好~~~~",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "你好OVO",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "早上好呀小机器人",
+      "intent": "greeting",
+      "entities": []
+    },
+    {
+      "text": "给我点联系呗",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我想知道我要进步该做什么练习",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "求教下我现在这个阶段想加强乘除法应该完成什么练习？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 13,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "你就教教我应该做什么练习吧~",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "关于学习正弦定理，你有什么好建议吗？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "我不懂数学练习，能给我点推荐或者建议吗？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "你能告诉我如果我要取得进步该做什么吗？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "你能告诉我我现在应该练什么吗？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "你能告诉我我该练什么吗？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我该练什么？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我现在应该练什么？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我想知道我现在该练什么？如果我想加强乘除法的话",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 18,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "正方形，圆形和圆柱相关的练习有哪些？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 2
+        },
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 5
+        },
+        {
+          "entity": "Search",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "哪个习题集和余弦定理有关？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "哪个习题集适合我？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我还想有进步的话，要完成什么习题集？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我还想再练练，该完成什么题？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我刚完成了习题A2，现在该做哪个？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "告诉我一些适合我现在进度的习题吧",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我想做点容易的练习题，有推荐吗",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我想再找点难点的练习题",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "哪个习题集能帮助我提高？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "哪个题比较适合现在我的进度？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "那最小公倍数的定义又是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 1,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "我分不清加减法，你帮我找找他们的区别吧",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "你能告诉我加减法有啥区别吗",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "你能告诉我数位是啥吗？",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "我想弄懂正方形的含义",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "帮我查查加法交换律的定义吧",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "我想求问下，乘法结合律是什么？他的定义是啥？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "数位我还是不太熟，你有什么建议吗？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "那针对混合运算和约数，我该怎么提高？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "那我应该做什么练习合适？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "正方形我学不太熟，感觉还需要提高一下。",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "我想提高下对圆柱的熟悉，该做哪个题？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "那我问你，分解质因数是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "有限小数的定义？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "那你能告诉我十进制运算是什么吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我不明白为啥我老搞不懂这些东西",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我这次考了全班第一哦！厉害吧！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "唉，我又是班上的倒数……",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我这次考试又拿了很低分，都快倒数了，哎",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 14,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "虽然分解质因数很有趣，但是它真的太难了啊，我老是学不懂",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 2,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "我好倒霉啊，这次的题目都做不出来",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我今天又考了全班第一，嘿嘿",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我问你！最大公约数是什么！",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "你怎么就是不懂呢。我问的是直角的定义，好吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 13,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "我想问你最大公约数是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "那我想问问，直角是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "那我问你，圆形和圆柱有什么区别？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "我想问你，混合运算是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "你能告诉我加法结合律是什么吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "那你说说我现在应该适合做什么？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "那你给我推送下习题吧",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我想问你，我这种情况做做什么题合适？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我想问你，我现在该做点什么？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "那我想问你，我应该做点什么题提高我对混合运算的熟悉？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 18,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "哈哈哈哈哈哈或或",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我乱打字的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我就想找你说说话",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你好烦",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我想问你点东西，怎么问",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "如果我想问问题，我要怎么写？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我不懂一些定义，我该怎么问？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我要怎么问你东西？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "给我个你的使用规则吧",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你怎么用？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你有使用说明吗",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "到底问你什么你才能回答我？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "除了问你问题，你还会做什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你能说英文吗？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我要怎么跟你说话？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你能怎么帮助我？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "好烦，这次又考砸了",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我不想做作业！我不想学习！我只想出去玩！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "老师又给我布置那么多作业！有完没完啊！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "给我你的使用指南吧",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我想要你的使用指南",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你能给我个问题菜单吗？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你能教我什么？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你能告诉我什么东西？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我厉害吧！把十进制运算搞出来啦",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我讨厌这玩意",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "做完上次那个习题我觉得我进步了很多！我现在完全懂了！",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "上次那个习题做的我很烦躁",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "你能告诉我你的使用方法吗？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我想问你，但我该怎么写？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "我能问你什么问题？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你主要是用来干嘛的？",
+      "intent": "asking",
+      "entities": []
+    },
+    {
+      "text": "你知道三角形的定义吗",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "你知道圆形吗",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "你懂什么是圆柱吗",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "你懂圆柱吗",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 2,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "你知道圆柱的定义吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "乘除法很烦！",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "我觉得乘除法太可怕了",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "我觉得它很烦",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "如果我能什么都不学就拿满分就好了",
+      "intent": "Confuse",
+      "entities": []
+    },
+    {
+      "text": "我不喜欢计算两点间距离，好累啊",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "循环小数好无聊啊",
+      "intent": "Confuse",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "我就搞不清了，互质到底怎么算？我做练习发现他太难了",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "我就不懂了，正弦定理到底是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 6,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "乘法分配律的练习我老是做的很低分，你能给我讲讲它的定义吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "我今天做练习的时候发现自己没学好，想问你加法结合律的定义是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 20,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "那我问你，你知道射线是什么吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "那我问你，你知道射线是啥吗？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "那求问，倍数是什么？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "那我问你，偶数和奇数有什么区别？",
+      "intent": "Question",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "Search",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "射线太难了，我该怎么提升？",
+      "intent": "Recommendation",
+      "entities": [
+        {
+          "entity": "Search",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "数学太难了，我应该怎么提高比较合适？",
+      "intent": "Recommendation",
+      "entities": []
+    },
+    {
+      "text": "我发现数学很可怕啊，我该做点什么？",
+      "intent": "Recommendation",
+      "entities": []
+    }
+  ]
+}
