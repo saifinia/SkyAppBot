@@ -7,6 +7,7 @@ var url = 'mongodb://localhost:27017/skyapp';
 var insertDocuments = function(db, callback) {
   // Get the documents collection
   var collection = db.collection('student');
+    //'student' need to be changed to 'worksheet' if worksheet database needs to be modified.
   // Insert some documents
   collection.insertMany([{"student" : "234A", "marks" : 100, "attempts" : 6, "time" : 650,"totaltime":11000,"totalattempt":18}
 
